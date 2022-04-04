@@ -3,41 +3,38 @@
     box-sizing: border-box;
   }
   
-  body {
-    padding: 0;
-    margin: auto;
-    justify-content: center;
-    width: 50%;
-    align-items: center;
-    background: beige;
+  .bg {
+    background-image: url("/imgs/mapu.png");
+    background-repeat: no-repeat;
+    width: 100%;
   }
   
-  h1{
+  .title{
     font-family: 'Gochi Hand', cursive;
     font-size: 4rem;
+    margin: auto;
+    width: 50%;
   }
   
+  .introd{
+    
+  }
+
   p{
     font-family: 'Handlee', cursive; 
     font-size: 20px;
   }
   
-  .container {
-    padding: 10px;
-    background-color: white;
-    width: 700px;
-    max-width: 80%;
-    box-shadow: 0 0 10px 2px;
-    ;
+  .btnstrt{
+    width: 400px;
+    align-self: center;
   }
   
   .btn {
     border-radius: 5px;
-    padding: 5px 10px;
-    outline: none;
-    align-items: center;
+    padding: 10px;
   }
-  
+
   .btn:hover {
-    background-color: rgb(248, 161, 0);
+    background-color: rgb(154, 170, 188);
   }
