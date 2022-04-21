@@ -138,12 +138,119 @@ var legendoDon = {
 
     a22: { 
         text:'Don: “Hey hop on, I couldn’t introduce her but look at my new companion. Kinda sick right” Joel: “Yoo, where did you get a pet like that??” Darcy: “That’s really cool, can’t believe i get to ride on her”  Don: “Right!? It’s time to get going, I’ll introduce her officially later” On top of Silica, you guys went down under and unfortunately, you guys found nothing. As you guys approach the ocean floor, you see a small hole with light seeping through. Finding that there was nothing there, you guys return back up for air. Upon your return to the surface, Joel starts pointing out that the clouds look like a chicken riding an ostrich. He then notices a weirdly shaped rock with a gleaming light from it. As you guys approach it, you see that it contains crystals (geode crystals). Your window appeared: Legend has it that if you eat a sea shard you will awaken in Atlantis. The villagers offer food and send out candles into the water to ease the wrath of Poseidon. Will you take the shard or go back under to find a different path?',
-        option:[['a24', ''] ['a25', '']],
+        option:[['a24', ' Eh rather than risking my life…I think I’m better off finding a different path, a safer path.'] ['a25', 'Well, I mean I have no better Ideas so minus well, on three?']],
     }, 
     a23: { 
         text:'Having no idea where to start looking, you guys spread out across the island and start searching every corner. After a day of searching on land, you guys had given up and decided to find a nice place to watch the sunset. Once you guys settle down on top of a low cliff hovering over the ocean, you guys find a pile of large rocks hovering over what seems to be a summoning circle on the floor. Moving the pile of rocks by breaking them, you guys have found that at the top of a low cliff hanging over the ever forgiving sea, was the portal to Atlantis. Once the sun started to set, you guys had set off the summoning gram and noticed that a whirlpool started to form right below you guys. The portal has opened, now you have to choose whether or not you jump, will you?',
-        option:[['', ''] ['', '']],
+        option:[['a26', 'Only one way to find out if this whirlpool is a door, right?Only one way to find out if this whirlpool is a door, right?'] ['a27', ' Oh nah bro, I’m going the other way, not trying drown before I turn 30, don’t even have white hairs yet']],
     },
+
+    a24: { 
+        text:'Having decided to go back under along with the other two, Darcy stares off into the distant ocean and figures out that around the time of sunset, the plate tectonics under the ocean starts to shift and an opening in the floor is created. You guys decide to go under and you end up between two huge pillars. After some exploring, Joel was testing out his trumpet skills with a horned shell he found lying in the center of the pillars and accidentally summoned the gate of the twin stars (guardians of the gate to Atlantis). Will you ask to be let through?',
+        option:[['a28', 'Darcy politely goes up to the Twin Stars and asks to be let through, kindly.'] ['a29', ' I mean, we can wait till they fall asleep…']],
+    }, 
+
+    a25: { 
+        text:'On the count of three…1…2…3! You guys shut your eyes in preparation for death or suffocation at the most, to your surprise, the answer was right in front of you guys. Your window appeared:Third Dungeon has begun! Congrats on making it to Atlantis! Your goal: Find Poseidon’s three artifacts and return them to his Castle. First, find  your way into the actual city!  You are at the border! After you close the window, you guys wander around when you realize that in the center of the border are two large crumbled buildings that seemed to have a stairway underneath. When you guys go down the stairs, you see inscriptions with instructions to find an opening in the border. Will you follow those instructions? ',
+        option:[['a30', 'Find the opening that the inscription told you about.'] ['a31', 'Just play around with the items in the room you found the inscriptions in']],
+    }, 
+
+    a26: { 
+        text:'On the count of three…1…2…3! You guys shut your eyes in preparation for death or suffocation at the most, to your surprise, the answer was right in front of you guys. Your window appeared:Third Dungeon has begun! Congrats on making it to Atlantis! Your goal: Find Poseidon’s three artifacts and return them to his Castle. First, find  your way into the actual city! You are at the border!After you close the window, you guys wander around when you realize that in the center of the border are two large crumbled buildings that seemed to have a stairway underneath. When you guys go down the stairs, you see inscriptions with instructions to find an opening in the border. ',
+        option:[['a32', 'Find the opening that the inscription told you about.'] ['a33', 'Just play around with the items in the room you found the inscriptions in']],
+    }, 
+
+    a27: { 
+        text:'After deciding not to risk your life, you guys decide to call it a day and sleep. The next morning, Joel  decides to take a swim and while he’s out swimming around the coral reef, a sharp glass object cuts him. He found it weird because instead of bleeding, he seemed to be drawn to it. When he brings a handful of pieces back, Darcy and you  start to analyze it and  realize that inside is what seems to be a pearl? Darcy realizes that if used correctly, these geode shards can actually be used as a medium to Atlantis.After taking the shards, you guys find yourselves in the city of Atlantis. Your window appeared:Third Dungeon has begun! Congrats on making it to Atlantis!Your goal: Find Poseidon’s three artifacts and return them to his Castle. First, find  your way into the actual city! You are at the border! After you close the window, you guys wander around when you realize that in the center of the border are two large crumbled buildings that seemed to have a stairway underneath. When you guys go down the stairs, you see inscriptions with instructions to find an opening in the border. Will you listen?',
+        option:[['a30', 'Find the opening that the inscription told you about.'] ['a31', 'Just play around with the items in the room you found the inscriptions in']],
+    }, 
+
+    a28: { 
+        text:'After having tried to reason with the Twin Stars, they eventually gave up on bickering with you and let you through. After going through the portal, you guys ended up entering the City of Atlantis.',
+        option:[['cp6', 'Continue...']],
+    }, 
+
+    a29: { 
+        text:'One hour passed after the next. As you watched time slip away, they finally fell unguarded. After you saw that, Darcy, Joel, and yourself hopped onto Silica and dashed through the portal. Thus, making it to the City of Atlantis.',
+        option:[['cp6', 'Continue...']],
+    }, 
+
+    a30: { 
+        text:'As you guys went back up the stairs, you guys hopped onto Silica and traveled South for another 2 miles or so before reaching an empty area with three pillars. Between was a shell with the inscription to blow it. Joel, being courageous, blew into it and rather than anything happening you guys were knocked out. When you awoke, you found yourself in the City of Atlantis where you saw numerous merpeople.',
+        option:[['cp6', 'Continue...']],
+    }, 
+
+    a31: { 
+        text:'As you guys kept searching the underground room, Darcy picked up a red and a white pearl and combined them. After combining them, a small mirror appeared, when Darcy started looking at herself, she saw that she could go through it. After all of you guys walked through, you guys found yourselves in the City of Atlantis surrounded by merpeople.',
+        option:[['cp6', 'Continue...'] ],
+    }, 
+
+    a32: { 
+        text:'As you guys went back up the stairs, you guys hopped onto Silica and traveled South for another 2 miles or so before reaching an empty area with three pillars. Between was a shell with the inscription to blow it. Joel, being courageous, blew into it and rather than anything happening you guys were knocked out. When you awoke, you found yourself in the City of Atlantis where you saw numerous merpeople.',
+        option:[['cp6', 'Continue...']],
+    }, 
+
+    a33: { 
+        text:'As you guys kept searching the underground room, Darcy picked up a red and a white pearl and combined them. After combining them, a small mirror appeared, when Darcy started looking at herself, she saw that she could go through it. After all of you guys walked through, you guys found yourselves in the City of Atlantis surrounded by merpeople.',
+        option:[ ['cp6', 'Continue...']],
+    }, 
+    // DIVISION cp6
+    cp6: { 
+        text:'Your window appeared: Congrats! You have made it to the City of Atlantis. Welcome to the home of the merfolks, head over to the castle and you will get your quest there. After finding the castle, you guys enter and you have Silica wait outside. As you guys enter the castle, you guys glance around at the blue empty halls of this huge castle. The shell decorations along with the sound of the ocean, its vast space that never seems to end, then finally the main room. As you guys entered, you were greeted with a hologram of Poseidon. “Welcome adventurers, along the lines of my old age, I lost three of some of my most trusted artifacts, a siren’s tear, my Trident, and my moon ring, that I have had my whole life. If you can find them and restore them to their rightful place beside my throne, I shall grant you a wish” After hearing the hologram, Darcy, Joel, and you agree that you will each spread out to find each artifact since there are three.You were in charge of the siren’s tear, Darcy was in charge of the moon ring, and Joel with the trident. As you guys divide and conquer, you think to yourself: What will you do first?',
+        option:[['a34', 'Maybe the villagers will know more about Sirens??'] ['a35', 'They say the best way to attract a siren is mmmmmh. I didn’t do drama for nothing, guess it’s finally coming into clutch huh, guess I’ll become a sailor? Nothing can go wrong']],
+    }, 
+
+    a34: { 
+        text:'While resurfacing, you split with the others and  end up walking by the rice fields where you see an elderly lady struggling to carry the rice bags. You approach her out of good will and end up helping her until you reach her house. In thanks, she offers you dinner and then you remember Sirens, that was your quest. You asked her about them and she replied:“Child, I don’t know why you’re looking for them, but if you do, please do it of good will. They’ve gone through a lot, back in my days I remember our village chiefs hunting them down for their scales and pearls. I used to be friends with one, good days have passed now. No use reminiscing anyway. They blend in with people and are usually hard to see unless they show themselves to you.If you want their tears, make them happy. I have faith that you can do the right thing, only pearls come from their unhappiness” After leaving her house, you went out and by then the night had fallen. Tonight was special though, tonight was the night of the festival. On this night every villager would come out and celebrate the water lotus festival. Instead of staying in town, you go up to the cliff  hanging over the ocean. When you went up, you saw someone on the hill. Someone dancing, so beautiful, yet so sad and helpless. The look in her eyes had no light, she seemed so empty. Because of this, you approached her and then you saw a trail of pearls…Thinking back, the elder had said sirens cry tears of pearls when sad, it was then you knew what you had to do. As you approached she backed off in fear now that she knew a human knew her secret. As you approached her with good will, she slowly came around to trusting you. What will you do to get the siren’s tears?',
+        option:[['a36', ' I should be honest and try to cheer her up in the meantime'] ['a37', 'They say the best way to win a woman\'s heart is with food. I know a really good restaurant on land and it is a festive night tonight, why not.']],
+    }, 
+
+    a35: { 
+        text:'You resurface and head to a restaurant withDarcy and Joel, as you guys discuss your quests, you guys decide to just sleep it off for tonight. In the morning you head out first and then you head to a clothing store. You buy yourself some protective gear like ropes, lighter, oil lamps, paper, pens, and a bag. After changing you head out to the dock where you attempted to rent a boat. Instead of renting a boat because of the price, you chose to instead build your own. As you started entering the bamboo forest, you cut some down and wield them into a boat. When you started to head out into the sea, you waited for a whole day before anything. While you slept and waited, you found one day that a raid of thieves was coming at you and fast. They set fire to your boat and before you knew it, you were thrown into the unforgiving sea. Almost drowning, you find yourself grabbing onto a piece of your bamboo boat and in the distance you start hearing someone sing in the distance. Almost as if you were entranced, you all started moving towards her. It was at that moment that you realized a siren had appeared. Once she stopped, the raiders had backed off and sailed away before they were enchanted. Unconsciously, you started going towards her regardless, there was a look in her eye that was screaming out for help. She seemed sad, yet no tears were falling. Your window appeared: Welcome Dante, to get a siren’s tear, they must cry of happiness, sadness results in pearls, good luck! What will you do?',
+        option:[['a36', ' I should be honest and try to cheer her up in the meantime'] ['a37', 'They say the best way to win a woman\'s heart is with food. I know a really good restaurant on land and it is a festive night tonight, why not.']],
+    }, 
+
+    a36: { 
+        text:'After taking the time to talk with her, you learned that her name is Sofia. She is Posiedon’s daughter, but what he wants is her to come home. She had run away because she felt restricted at home and from what she said, her parents wanted her to pursue a path that they chose. After hearing her story, regardless of your quest right now, you sing her a song that your mother used to sing you. The song you found in the attic behind a picture frame. The same song your mother was supposed to sing to you before she passed in an accident. After seeing she had slept, you took her to a room and tucked her in. In the morning you consoled her and took her out to explore the village and the aquarium before she and you had to part, allowing her to live some of her life freely. The next morning before leaving she gave you her tears as you wanted. Before she left, you had left her with a bracelet, it symbolized her freedom and her will to do whatever. She wasn\'t chained down and you showed her that. She was truly thankful. After parting, you slept and the next day prepared to start  meeting with the other two. ',
+        option:[['cp7', 'Continue...']],
+    }, 
+
+    a37: { 
+        text:'After Sophia  saved you, it felt that it was your turn to save her. You learned that she had been looking for a younger sibling, not an actual sibling, who had been taken. In an attempt to cheer her up, you ended up bringing her to the water festival where you took her down to the sea and bought two lanterns. On them, you would write your worries on a piece of paper and let it float away just like one\'s worries should. The night was spent dancing and feasting, as you saw her smile grow brighter, the day grew dimmer. She seemed so full of life now, she seemed truly happy. When she fell asleep you took this chance to locate her sister using a tracking spell mentioned in the book your mentor gave you earlier on, and before she woke up, you returned along with her sister. Knowing you didn\'t get what you came for, you were satisfied that at least you could see her smile before she once more disappeared into the sea. When she awoke, she was reunited with Lili, suddenly tears burst out, tears of joy, she had been so happy. A bright smile broke out and suddenly everything seemed to be right again.  Before she had left, she gave you a bottle of her tears, she had been able to forget about her worries, and not only that, you were reunited with Lili, who she cared for a lot. After you guys parted you spent the next day sleeping and preparing to meet up with the other two.',
+        option:[['cp7', 'Continue...']],
+    }, 
+    // DIVISION cp7
+    cp7: { 
+        text:'Three days later, you guys had decided to meet up at the cliff once more. When you arrived, Darcy was already there and Joel was left. As you guys got ready to go back under, you realized you had forgotten about Silica… While away, you left her at the elder’s house. After summoning her, you guys got ready to go back under to meet Poseidon.Upon reaching the Castle of Shells, you guys entered the throne room and met Posiedon. Upon entering, he didn’t seem to be there and so you guys ended up walking up to the throne and beside the main chair, there were three podiums. On the podium above the throne, you put Sophie’s tears in after  Darcy put in the Trident to the left  and to the right Joel put in the moon ring on the right. Upon entering Sophie’s tears, you found yourself disintegrating. An error appears.Poseidon had appeared. “Welcome fellow humans! I see you guys have successfully returned the artifacts, and most importantly, I’m glad you were able to make my daughter happy. *Cough* You know she’s single *Cough*.  Thank you, everyone in the past who tried to do this quest had failed, for not letting your selfishness get the better of you, thank you. Because of your kindness and bravery, I shall grant you each a wish. “Joel wished for a sword  Dante: Wow Joel, you wished for that quick!Joel: Yea it’s always been on my mind to become the strongest knight out there, and with this, I think I can. Darcy: What should we wish for? Anything in mind Dante? Dante: Wihs the first thing that comes to mind, I know for sure what I’ll be wishing for. Darcy: Ok I think I know myself- *Before Darcy was able to finish her sentence, a sudden voice caught all of our attention. It wasn’t necessarily loud, but then we realized it was coming from our Window interface. *WELCOME! AHAHAHAH ADVENTURERS!  Ah what a wonderful sight, after countless attempts to kill you, I figured why not just use you! Always useless kids getting in my way! Without you Dante, my NPCs wouldn’t have ever felt, they wouldn’t ever disobey me. YOU CAUSE THIS UPON YOURSELF! My manifestation is upon us!BEWARE FOR I AM COMING WORLD!System Admin Required: @winEX admin.pin./code-get /account_admin.promptadmin.control_sequence=halt password code=*****Access Allowed!System Alert: Avatar creating. . .After the avatar is made and I get rid of that bug, Dante, I shall be the ruler of this world! Oh how long I’ve waited… Ah get ready, I\'ll give you only one shot to beat me! Try your best AHAHHAH!',
+        option:[['a38', '*You think to yourself* Ah I coded before...I can beat this guy?...Right..'] ['a39', 'BRUH WHAT IS THAT...Nah I\m out'] ['a40', 'I guess I don\'t have a choice but to try and beat him do I...']],
+    }, 
+
+    a38: { 
+        text:'After accepting the request, you are transported into another room with Window. A while later, a magical keyboard appears infront of you. You realzie it is an IMSAI 8080. thes ame exact computer that appeared in War Games, and the computer that is at the end of the novel, "Ready Player One." If you remembered correctly, the protagonist used a secret backdoor to gain access to the locked system. What should you type to gain backdoor access?',
+        option:[['a41', 'Suki'] ['a42', 'Poseidon'] ['a43', 'Shards']],
+    }, 
+    
+    a39: { 
+        text:'Sigh, truly unfortunate: Because you ran, it is your fate to die alongside this world! Game Over! You have died.',
+        option:[['opener', 'Start Over...']] ,
+    }, 
+
+    a40: { 
+        text:'After accepting the challenge, you and Window are taken into another drive space, after some consideration Window asks you what want to challenge him at?',
+        option:[['a44', 'Pokemon battle'] ['a45', 'pac man']],
+    }, 
+
+    a44: { 
+        text:'Upon choosing a Pokemon battle your given line up is: Shuckle, Squirtle, Raquaza, Arceus, Ratatta. Your opponents lineup is : Ditto, Geodude, Cyndaquil, Gyrados, Geodude. Choose your first line of attack!',
+        option:[['', ''] ['', '']],
+    },  
+
+
+    a45: { 
+        text:'',
+        option:[['', ''] ['', '']],
+    }, 
+
     // tmeplate
     a: { 
         text:'',
@@ -246,16 +353,16 @@ c14: {
 }, 
 c15: { 
     text:'The man reveals his identity as a mage named Cade. Cade is a very experienced mage that specializes in fire magic. He takes you under his wing and y\'all talk more. While talking with your mentor, a sudden door slam catches both of your attention. The man did not look worried, he looked as if he was expecting someone to come in. Walking through the door, a female figure emerges. It\'s that weird girl you saw earlier in the forest. Darcy! Exclaims the mage. It seems that Darcy is also an apprentice of Cade. Darcy notices you almost immediately and asks why there is a stranger in their home. You formally introduce yourself and she doesn\'t seem pleased. Before you can get to know her she runs up to her room. Cade apologizes and talks about how it\'s getting late. You get ready for bed and wonder what awaits you in the morning. When you wake up, Cade senses mana in you. He realized you read one of his grimoires. A grimoire is a very expensive book that empowers a mage. Cade immediately starts training you in the art of fire. You go into town after a few months of training and encounter thugs. You\'re able to beat them up as a powerful mage instantly. They call for help and a knight appears. He assumes you\'ve been assaulting civilians and challenges you to a duel. You both duke it out and he finally starts asking you questions. You explain to him how this is a misunderstanding and you both laugh it off. He asks about you and tells him about you. The knight\'s name is Joel and he is a son of nobles that studied knighthood. You become the best of buds and recommend you to attend the academy. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. This girl was always the quiet but studious one in the class. You worry about communication but hope it just works out. It is a month long exam where you all must gain enough experience of killing 200 udashes. How will you collaborate with the new member in your party?',
-    option:[['c19', 'Girls are disgusting, no.'] ['c20', 'Attempt to associate with Darcy']],
+    option:[['c19', 'Girls are disgusting, No.'] ['c20', 'Attempt to associate with Darcy']],
 }, 
 c16: { 
     text:'You continue to walk away, but before you can take a step, you notice yourself falling. Your eyes are now closed and before your conscience fades away, you hear the old man asking if you\'re okay. You awake to the smell of something delicious. You check your surroundings to notice that you\'re on a couch near a fireplace. The walls are wooden and you feel cozy. When you try standing up, you collapse almost immediately. Someone rushes to your assistance and when you look up you see the old man that saved you earlier. There was no hostility in the man\'s voice so you gave him your trust. He helps you back on the couch and leaves you. He comes back with what seems to be tea and bread. You instinctively start snarfing down the food that was given and the old man sits next to you. The man then asks you to talk about yourself.  You tell the man all of what has happened to you. He seems very wise and understanding and offers you to be his apprentice.',
-    option:[['c21', 'No I can handle myself'] ['c22', 'Yes teach me the secrets of this world']],
+    option:[['c21', 'No I can handle myself'] ['c15', 'Yes teach me the secrets of this world']],
     //Man: "You shouldn't get up, traveler, you've reached your limit." 
 }, 
 c17: { 
     text:'You get your butt beat and before they could deal the final blow you hear someone yell stop. Too scared to look up you keep your head on the floor. You hear metal trinkets running towards you and when you look up you see what seems to be a knight. The knight was very skillful and managed to disarm the thugs. He single handedly tied the three thugs up.',
-    option:[['c23', 'You thank the knight graciously'] ['c24', 'Pfft I didn\'t need help anyway']],
+    option:[['c22', 'You thank the knight graciously'] ['c23', 'Pfft I didn\'t need help anyway']],
 }, 
 c18: { 
     text:'You ask them if you can join their ranks. Their expression eases and they agree to take you in. You start your life as a thug and live on the run for a few months. You are slain by a knight when attempting to steal from an old lady. loser.',
@@ -274,11 +381,48 @@ c19: {
 //Applications are closed at this time, try again 
 //Next year!”
 
-    option:[['c25', 'A dungeon? Maybe I can gain experience faster.'] ['c26', 'I like traveling, onward!']],
+    option:[['c24', 'A dungeon? Maybe I can gain experience faster.'] ['c25', 'I like traveling, onward!']],
 }, 
-a: { 
-    text:'',
+
+c20: { 
+    text:'The girl ignores you and plays the support mage through the entire quest. You gain a lot of experience and graduate from the academy. After you graduate from the academy the girl asks to form a party with you and Joel. Before you could respond, Joel said yes. Now, you are all partied together and take on multiple quests together. Over time, you were able to learn more about Darcy. After a few months traveling to as a party, Joel has received a summon back to his manor. You and Darcy bid farewell to him and wish him good luck on his travels. It\'s been officially a year since you all have started traveling together and you are as close as ever with Darcy. A new dungeon quest pops up, will you take it or continue traveling for another year?',
+    option:[['c24', 'A dungeon? Maybe I can gain experience faster.'] ['c25', 'I like traveling, onward!']],
+}, 
+c21: { 
+    text:'Cade respects your decisions and takes you to the nearest town. You seem ready to start this new life. You bid your farewells with Cade. You walk through the town so you get used to the environment. As you\'re walking you get pulled into an alleyway. Three thug looking boys have their knives out and corners you into the alleyway. In immediate instant, you scream for help and no one responds. What do you do?',
+    option:[['c17', 'Take on the Villains yourself. You got this'] ['c18', 'You try to negotiate with the villains.']],
+},
+c22: { 
+    text:'The knight enjoys your praise and takes you under his wing. He asks about you. You continue to tell him everything that has happened up to this point. He introduces himself as Joel. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.',
+    //Knight: What city are you from? 
+//Dante: I’m from Osaka Japan, where am I? 
+//Knight: “Osaka Japan? Never heard of that region. You currently reside in Chesternet, in the Glegora Kingdom.”
+//Dante: …. I don’t think I’m from this world…
+
+    option:[['c19', 'Girls are disgusting, No.'] ['c20', 'Attempt to associate with Darcy']],
+}, 
+c23: { 
+    text:'The knight is glad to see that you\'re doing fine. You guys talk some more and he asks about you. You tell him everything. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.',
+    option:[['c19', 'Girls are disgusting, No.'] ['c20', 'Attempt to associate with Darcy']],
+}, 
+c24: { 
+    text:'You take the quest and explore the dungeon of truth. After an excruciating and difficult 12 hours. You both reach the vault. In excitement Darcy grabs the vault door and opens it. You were able to detect a curse on the door but it was too late to warn Darcy. The curse activated once she opened the door. She was cursed with a liars baron. Liars Baron curses its target by forcing the victim to tell the truth. Curses cannot be released until a certain condition has been met. Darcy is confused and asks you if everything is alright. You explain to her and she exclaims how she\'s not worried about the curse since she has nothing to hide. Alas! You two have finally reached the dungeons treasury. Darcy randomly starts spouting how much she likes you. She looked shocked. Her mouth couldn\'t stop rambling as she confessed her feelings for you. The more she tried explaining, the more the curse overwrote her lies. There is a mage in town that can help her with the curse. The mage says the only way to break the curse is the ironic method of a kiss from the person that she has kept romantic feelings from. You have consciously developed feelings for Darcy and did not mind this. This quest that was done to gain experience, has also rewarded you with a new relationship.After some time,  you meet up with Joel after one more year of traveling and update him. He congratulates you both and talks about challenging the world\'s dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God\'s wish is granted upon the dungeon conqueror.',
+    // “Welcome to the Dungeon of Truth!
+//Explore the depths of this dungeon to your heart's content, however where treasure awaits, surely you will awake. Baron's truth will start  one’s youth!
+
+    option:[['c26', 'Heck yea let\'s go!'] ['c26', 'Nah I\'m ok']],
+}, 
+c25: { 
+    text:'After years of traveling alone and monster fighting in life threatening situations, you and Darcy become a thing, congrats! You meet up with Joel after traveling and update him. He congratulates you both and talks about challenging the world\'s dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God\'s wish is granted upon the dungeon conqueror.',
+    option:[['c26', 'Heck yea let\'s go!'] ['c226', 'Nah I\'m ok']],
+},
+c26: { 
+    text:'The fairy appears. The fairy caught you by surprise. But before you could question it, the fairy shoots a beam at you. You\'re immediately knocked out. A rapid stream of data was traveling straight into your brain. You wake up almost a second later with Darcy and Joel surrounding you. You\'ve gained information about your mom, and now you come to the conclusion that you need to conquer the world\'s dungeons.',
     option:[['', ''] ['', '']],
+
+    //Hello, Dante! You are continuing the g̴̖̊͛̍a̶͉͖͕̟̝̭͊͋́͛͐̌m̴͇̱͍̊̀̃̚̕e̶̢͍̳̻̓̒̋̒̆̂̍̀͌͝ͅ.
+    //Goodluck! You are just like 🅂🅄🄺🄸!  ☺̵̞̋̃͑̾̚
 }, 
+
 };
    
