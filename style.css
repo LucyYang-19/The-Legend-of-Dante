@@ -3,38 +3,60 @@
     box-sizing: border-box;
   }
   
+
+  /* whole first page */
   .bg {
-    background-image: url("/imgs/mapu.png");
+    background-color: #9DADEB;
     background-repeat: no-repeat;
     width: 100%;
+    height: 1010px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-image: url(imgs/intro1.jpg.jpg);
   }
   
+  /* heading */
   .title{
-    font-family: 'Gochi Hand', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
-    margin: auto;
+    margin-left: 32vw;
+    padding-top: 12vw;
     width: 50%;
+    color: white;
   }
-  
-  .introd{
-    
+ 
+  /* description */
+  .descript{
+    margin-left: 13vw;
+    padding-top: 10px;
+    font-size: large;
+    color: whitesmoke;
+
   }
 
+  /* paragrapgh */
   p{
-    font-family: 'Handlee', cursive; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
   }
   
-  .btnstrt{
-    width: 400px;
+  /* button design */
+  #btn{
+    width: 30vw;
     align-self: center;
-  }
-  
-  .btn {
+    margin-left: 45vw;
     border-radius: 5px;
     padding: 10px;
+
   }
 
   .btn:hover {
     background-color: rgb(154, 170, 188);
+  }
+
+  #smallArea{
+    padding: 40px;
+  }
+  #playArea{
+    color: whitesmoke;
+
   }

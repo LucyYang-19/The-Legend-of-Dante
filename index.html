@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<div class = "bg">
+<div class = "bg" src =>
   <div class=" introd">
     <p>
 
@@ -21,9 +21,23 @@
     <strong>The Legend of Dante</strong>
   </div>
 
+  <div id="descript" onmouseover="style.display = 'none'"> 
+    <pre>                                                                             →Welcome←
+       In this game, you will be playing as Dante, not spoiling anything, you will come across some boss fights and other adventures. Enjoy~
+    </pre>
+  </div> 
+    <button id="btn" onclick="style.display = 'none'">Start Your Adventure!</button>
+  <div id="playArea">
+    <!-- empty div where text is replaced-->
+  </div>
 
-  <div class="btnstrt">
-    <button class="btn">Begin your journey!</button>
+  <div id="buttonArea">
+    <!--empty div where buttons are added-->
+  </div>
+
+  <div id="smallArea">
+    <button id="restart">Restart</button>
+    <!--restart button unhidden on start-->
   </div>
  
 </div>
