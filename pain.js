@@ -439,7 +439,7 @@ var legendoDon = {
 
     b31: {
         text: 'As Joel tried to close in his distance with the finnoe, it would simply send out a hurl that kept him away. Joel: “HEY! I can’t go near him?” Don: “GIMME A MIN! I can cast a barrier spell around ya” Darcy: “QUICKLY! IT\'S COMING” After the casting, you guys continue your method and find yourselves rather exhausted and depleted. Putting some mana into Joel’s enchanted sword and Darcy using a mud pillar to launch him, Joel dash at the Finnoe. He took a deep breath and with all his might + the powers you casted on him, he sliced through the Finnoe killing it. After it dropped, its body despawned dropping the four stones. After taking the four stones, you guys leave.',
-        options: [['', '']],
+        options: [['bcp3', 'Continue...']],
     },
 
     // DIVISION bcp3 
