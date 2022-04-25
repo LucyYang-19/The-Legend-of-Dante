@@ -291,86 +291,171 @@ var legendoDon = {
         options: [['b6', ' “Sorry to ask you…… uh but can I stay here for the night, it’s kinda cold out there and uh new guy round here ya know”'], ['b7','“Eh, I’ve asked plenty already, think it’s time that I start tryna do things for myself…”']],
     },
     b4: {
-        text: 'Cade looks at you oddly. Wanna go? Cade: “Sure I guess, won’t need it but you do you bud, here I’ll hit up Darcy, she’ll be home tomorrow at dawn. Get along well kiddos” Dante: “Sure? There any peeves I need to be ware of” Cade: “Nah, she’s cool, she grew up in the forest so she knows her way round. Anyways you guys set off in two days, I need you to go grab some ingredients. If I have extra, I’ll make you a flame elixir for your mana”  Once you guys set out, you found yourselves traveling for quite a while. After three hours on the road, you guys called it a night and continued up the mountains at dawn. You both lay under the stars. As you guys gaze, Darcy asks: Darcy: “Hey, what’s your name? Dante: “Bro you ask now????  It’s Dante” Dacry: “Alright, we set off tomorrow, good with you?” Dant : "Yeah, sounds good, where are we starting off first?” Darcy: “No clue, the list he gave us is in my inventory, we should be okay after making it up to the mountains” After talking for a bit longer, you guys sleep and get up early the next morning. After another month of traveling passes, you guys end up finishing and returning to Cade. Upon giving the contents of the quest to him, you and Darcy leave after. Darcy: “Hey Don, up for a quest?”',
+        text: 'Cade looks at you oddly. Wanna go? Cade: “Sure I guess, won’t need it but you do you bud, here I’ll hit up Darcy, she’ll be home tomorrow at dawn. Get along well kiddos” Dante: “Sure? There any peeves I need to be ware of” Cade: “Nah, she’s cool, she grew up in the forest so she knows her way round. Anyways you guys set off in two days, I need you to go grab some ingredients. If I have extra, I’ll make you a flame elixir for your mana”  Once you guys set out, you found yourselves traveling for quite a while. After three hours on the road, you guys called it a night and continued up the mountains at dawn. You both lay under the stars. As you guys gaze, Darcy asks: Darcy: “Hey, what’s your name? Dante: “Bro you ask now????  It’s Dante” Dacry: “Alright, we set off tomorrow, good with you?” Dant : "Yeah, sounds good, where are we starting off first?” Darcy: “No clue, the list he gave us is in my inventory, we should be okay after making it up to the mountains” After talking for a bit longer, you guys sleep and get up early the next morning. After another month of traveling passes, you guys end up finishing and returning to Cade. Upon giving the contents of the quest to him, you and Darcy leave after. Darcy: “Hey Don, up for a quest?” Wanna go?',
         options: [['b8', '“Definitely, what are we doin?”'], [' b9','“Maybe later? I’mma go back to Cade I needed to grab something”']],
     },
 
     b5: {
-        text: 'Cade: *Sigh* kids these days don’t get anything done eh, fine it’s good instead you can go into the forest. Here, I’ll give ya a map, take it and go explore, there’s plenty to learn from there. Don’t come back till it’s clear. Will you listen to the second request? Dante: “Thanks….sorry again Cade” Cade: “It’s fine, can’t force a kid to go ya know”',
+        text: 'Cade: *Sigh* kids these days don’t get anything done eh, fine it’s good instead you can go into the forest. Here, I’ll give ya a map, take it and go explore, there’s plenty to learn from there. Don’t come back till it’s clear. Will you listen to the second request? Dante: “Thanks….sorry again Cade” Cade: “It’s fine, can’t force a kid to go ya know” Will you listen to the second request?',
        
-        options: [['b9', '“I said no to the first one, minus well go on this one”, but can I go with ppl?'], ['b10','“I’m not going through adolescence I swear, but like can I just explore on my own?”']],
+        options: [['b10', '“I said no to the first one, minus well go on this one”, but can I go with ppl?'], ['b11','“I’m not going through adolescence I swear, but like can I just explore on my own?”']],
     },
+
+    b6: {
+        text: 'After introducing himself as Cade, he allows you to stay the night and that’s when you ask him: “Uh. . . I know I’m asking a lot, but can you take me in, new around here and clueless about everything. It’s fine if you don’t that’s cool too” Cade:”Sure kid, no parents or anything?” Dante: “Nah, they’re, away you can say.” After Cade agrees to take you in and you start training under his wing. Before anything, he tells you about the status window which will appear at new quests or creatures. After two years of traveling and slaying monsters with Cade, he tells you that he’s taught you everything you need to know. He in turn tells you that he has a mission for you. Before disclosing it to you, you must accept it. well? Do you accept the quest?',
+        options: [['b12', 'Definitely, what is my assignment?'], ['b13','Can I do something else']],
+    },
+
+    b7: {
+        text: 'As you cluelessly wander around, you stumble upon a misted forest where you hear the cries of what sounds like a person? As you go further into the forest confused, you see an ogre with a log chasing a girl? But what was a girl doing this deep in the forest anyway. Your window appears: “Welcome!I am Window! I am here to help you along your adventures. As you encounter new creatures and quests, you will see me a lot! Creature ahead: Urlog  Descriptions: Attacks indiscriminately when someone touches their items or enters their plot of land” As you go to see how you can help, you end up throwing a log, after the ogre flinches away, you grab the girl and flee. Once you guys get into a safe vicinity,you ask her for her name. Girl: “Hey, thanks, you saved me back there, for thy, I am thankful. My names Darcy, and you?”  Dante: “np, I just got myself saved too lmao, name’s Dante”  After talking for a bit, she casts and throws her palms onto the floor, in confusion you look at the floor then you see a chiseled map on the floor. In amazement, you ask her about it. After answering what ',
+        options: [['b14', '“There’s a cabin back in the forest, did you wanna go there?'], ['b15','“Let’s explore the forest?”']],
+    },
+
     b8: {
-        text: 'As you walk back into the Cabin, you look around for Cade. After talking with Cade a bit you find out that dungeons are random portals that spawn around the world. By going through them, it’s basically suicide if you can’t beat the boss. Without defeating the dungeon, you can’t beat the boss.',
-        //Dante: “HEY! Cadeee. You here?”
-       // Cade: “Yeah, what’s up kiddo what d'ya want?”
-       // Dante: “Tell me about Dungeons???I’m weak, tryna buff up ya feel?”
-       // Cade: “Sure kid, gimme a min want some Coffee?”
-       // Dante: “Sure”
-        
-        
-        options: [['b9', ''], ['b10','']],
+        text: 'As you walk back into the Cabin, you look around for Cade. Dante: “HEY! Cadeee. You here?” Cade: “Yeah, what’s up kiddo what d\'ya want?” Dante: “Tell me about Dungeons???I’m weak, tryna buff up ya feel?”  Cade: “Sure kid, gimme a min want some Coffee?” Dante: “Sure” After talking with Cade a bit you find out that dungeons are random portals that spawn around the world. By going through them, it’s basically suicide if you can’t beat the boss. Without defeating the dungeon, you can’t beat the boss.',
+        options: [['bcp1', 'Continue...']],
     },
+    
     b9: {
-        text: '',
-        options: [['', ''], ['','']],
+        text: 'Darcy: “I heard that there’s a bunch of flowers blooming on the windland hills, did you want to go” Dante: “Sure, where to first captain” As you guys start heading up for the Windland hills, you start to feel a bit cold. The wind starts to blow harder and you lose your footing. Darcy: “HEY DON,  ARE YOU OKAYYYY!” Dante: “Yeah, I’m good, did you want to find your way down? There’s another guy down here, he just walked through what looks like a black hole?”',
+        options: [['bcp1', 'Continue...']],
     },
-      b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b10: {
+        text: 'Cade: “Sure, 6 am sharp, meet up with Joel and Darcy, don’t be late” After meeting up with Darcy and Joel, you guys introduce yourselves and end up heading out for the highLands where the swamps are dominant. Upon setting out, you guys stumble upon a key and a chest. Joel: “Hey so who wants to open it?” Darcy:”I’m just tagging along, I didn’t want to come..” Dante:”...” Joel:”So?” Dante:”I’ll do it…” After you insert the key into the chest, a portal opens in its place.',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+    b11 : {
+        text: 'Cade: *Sigh* go ahead kid” As you set off, you start heading for the Highlands where you accidentally stumbled through a hole in the ground. After falling a couple feet below the ground, you find yourself in a hole with two other people. Dante: “I don’t know where I am, you” Joel: “No clue”  Darcy: “Nope, i was practicing creating mud soldiers when i was brought here by them” Dante: “Names, Dante” Joel: “Cool, I’m Joel” Darcy: “Names Darcy, I’m from the elven kingdom, pleasure to meet you”  Dante; “So what do we do?” After discussing it for a bit, a random portal appears.',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b12: {
+        text: 'Cade: “I need you to enter a dungeon, any dungeon, you should be able to get me a shard of any dungeon cave”',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b13: {
+        text: 'Cade: “Nope, need this done, thanks kid”Cade: “You’re going to enter a dungeon along with two other people, I’ll tell you more about it later. Trust me, the rewards will prove rewarding ”',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b14: {
+        text: 'Before reaching the cabin, a group of Urlongs chases you out and so before you can do anything, Darcy and Yourselves end up running. While running, you guys encounter another guy and start running with you guys. As the Urlogs got closer, a portal formed and you all jumped through without a second thought. ',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b15: {
+        text: 'As you guys enter the forest, you guys run into another guy. After helping him you guys end up exploring the forest together. After a day of exploring, Joel accidentally trips over a lever hidden under some leaves and triggers a trap door. Hesitant to enter, you have Joel enter first then yourself. After entering, you guys are met with a portal.',
+        options: [['bcp1', 'Continue...']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+        // DIVISION BCP1
+    bcp1: {
+        text: 'Upon having a dungeon form before your eyes, Dary, Joel, and yourself have entered. When you guys enter, you guys are blinded. Complete darkness surrounds you, as you light up the room with a small flame, you guys see barely enough to light up the outer wall. As Darcy goes closer, you both hear Joel Slash his sword at something. Quickly looking at him, you see that he has uncovered some inscriptions on the wall. After following the trail of the inscriptions you guys are trapped inside a room. How will you get out?',
+        options: [['b16', 'Maybe there’s loose papers lying around? We should check those'], ['b17','Alright guys, get back, btta blast our way out']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b16: {
+        text: 'As you guys continue inspecting the room for clues on how to get out, Joel finds an encrypted piece of paper. While trying to decipher it, Darcy speaks up. Darcy: “Hey, guys, I think it’s in Elven, this seems to be my language. It’s really old since I don’t know it but from what I can tell, it seems to be a potion recipe” Joel: “Well? Can you decipher it or not?”   Don: “HM, do you think the Window knows?” You try pulling up window  Welcome Dante! What do you want to do? Spell book  Avatar Status Creatures Other After trying to use the window to decipher the recipe, you guys get as far as to know you need to create three potions with the given ingredients. It is missing one ingredient hence the options on the podium, each one of the people in the room will make one. Welcome to your first quest: You will create a potion, each of you, with the given ingredients: A rabbit’s foot, a toad’s tongue, or snake venom. You are trying to make an elixir of light, this potion will come to use later. Which kind of potion will you make?',
+        options: [['b18', 'I want to use the snake’s venom'], ['b19','“Mmh a toad’s tongue? The princess and the frog? Maybe there’s some correlation lmfao”'], ['b20', '“They say a rabbit’s foot is lucky, well only one way to find out”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b17: {
+        text: 'Before casting your explosion you hear a yell. Darcy: “WHAT are you doing!”  Joel:”At least take some precautions?!?”  Darcy: “Give me a warning ahead of time, let me put up a shield before you kill us you nugget” Don: “Sorry… but y\’know I was gonna cast one simultaneously” Joel: “Can you even do that in your state? I heard it takes a lot of mana” Don: “...” Darcy: “You really were going to kill us huh” Don:”Mb, i\'ll watch it next time lel”  Your recklessness may have nearly killed you guys, however nothing ever comes easy anyways. After exploding your way out of the room, you ended up entering the central chamber. When you guys walk closer you see two paths.  Joel: “So which path do we take?” Darcy: “I don’t know, none of my mud buds are active under here so i can’t send them” Don: “Take your best guess guys, we may end here” As you guys approach it, you see two paths and an inscription on the wall: Welcome explorer, depending on which path you take, you will be led to your death, or you will be given treasures. Which path will you take?',
+        options: [['b21', 'Heyyy, let’s go right eh?”'], ['b22','We cannot go wrong with left”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b18: {
+        text: 'Hello, Dante! You have successfully created a potion.Attributes: ??? Contents: Snake Venom This potion will be used for a later room, remember your life is in its hand. I do not recommend losing it! Despite not knowing whether or not the elixir you guys made is the right one, a door on the right has opened. Upon walking inside, you are led through a dark tunnel with only your flame as a light source. When you guys entered the other side, you found ourselves in an underground tunnel-like place. When you guys go up to the podium, you guys are given instructions. Welcome! This is the labor-a-tri. Of the three elixirs that you guys have made, you will all take a sip of one. Hint: they say the more you rub it the luckier you get :) Which kind of potion will you guys take? ',
+        options: [['b23', 'All or nothing..we should take poison. I mean if we were gonna die anyways, minus well '], ['b24','Let’s take the toad’s tongue one…maybe it’ll work like a prince’s kiss”'] , ['b25','I’m confident! Let’s take the rabbit’s foot”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b19: {
+        text: 'Hello, Dante! You have successfully created a potion.Attributes: ??? Contents: Toad’s tongue This potion will be used for a later room! Despite not knowing whether or not the elixir you guys made is the right one, a door on the right has opened. Upon walking inside, you are led through a dark tunnel with only your flame as a light source.When you guys entered the other side, you found ourselves in an underground tunnel-like place. When you guys go up to the podium, you guys are given instructions.  Welcome! This is the labor-a-tri. Of the three elixirs that you guys have made, you will all take a sip of one. Hint: they say the more you rub it the luckier you get :) Which kind of potion will you guys take? ',
+        options: [['b23', 'All or nothing..we should take poison. I mean if we were gonna die anyways, minus well '], ['b24','Let’s take the toad’s tongue one…maybe it’ll work like a prince’s kiss”'] , ['b25','I’m confident! Let’s take the rabbit’s foot”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b20: {
+        text: 'Hello, Dante! You have successfully created a potion.Attributes: ??? Contents: Rabbits foot This potion will be used for a later room, remember your life is in its hand. I do not recommend losing it!Despite not knowing whether or not the elixir you guys made is the right one, a door on the right has opened. Upon walking inside, you are led through a dark tunnel with only your flame as a light source. When you guys entered the other side, you found ourselves in an underground tunnel-like place. When you guys go up to the podium, you guys are given instructions. Welcome! This is the labor-a-tri. Of the three elixirs that you guys have made, you will all take a sip of one. Hint: they say the more you rub it the luckier you get :) Which kind of potion will you guys take? ',
+        options: [['b23', 'All or nothing..we should take poison. I mean if we were gonna die anyways, minus well '], ['b24','Let’s take the toad’s tongue one…maybe it’ll work like a prince’s kiss”'] , ['b25','I’m confident! Let’s take the rabbit’s foot”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b21: {
+        text: 'Darcy: “If i don’t live through this… I\'ll see you guys on the other side” Joel:”Right behind you” Don: “HM.. it’s okay I am mentally prepared-ish” The right door has opened, before going through, you see from a distance two lights. Sorry! Wrong choice, because we are all giving, we have given you a second chance at this. Ahead of you is a puzzle, only the three of you guys can complete it. After this warning appears, you guys walk forward where in front of you, you guys see a stone chamber with three stone openings. In the instructions, you are to put your hand into the stone chamber and correctly put the stone shards in the stone chamber. If you guys fail to correctly place the stone tablets, snake venom will be injected into your veins. Each one of the stone tables have an inscription on the-... Error: Incomplete sayying, time running low. Please chose your order! Which order will you enter the stone tablets? ',
+        options: [['b26', '“Obviously in a linear order right?”'], ['b27','Nah let’s place them rectangularly'] , ['b28','“Or don’t place it at all and see what happens”']],
     },
-    b3: {
-        text: '',
-        options: [['', ''], ['','']],
+
+    b22: {
+        text: 'Congratulations! You have entered through the right path. You will now be led to a room with treasures. If you choose to take something, it will collapse as soon as one thing is misplaced, quickly get your desired items and get out. Will you take something out? ',
+        options: [['b29', 'let\'s look around!']],
     },
+
+    b23: {
+        text: 'Congratulations! User(s): Dante, Darcy, and Joel. You have drunk a potion of light! Thankfully nothing happened to you and you will now move onto the next and final quest with the others! See you on the other side! Now that you have successfully lived through that first experience, a door opened to the left. Upon entering, you guys found yourselves in the boss room.',
+        options: [['bcp2', 'Continue...']],
+    },
+
+    b24: {
+        text: 'How Unfortunate! Sorry user(s): Dante, Darcy, and Joel. You have chosen the wrong potion. It looks like the gods weren’t on your side today! Once you have died, you will be sent back to the overworld without your memories! I hope you have a happier time there.-Window ',
+        options: [['opener', 'Back to the start we go...']],
+    },
+
+    b25: {
+        text: 'What a shame! Sorry user(s): Dante, Darcy, and Joel. You have chosen the wrong potion. It looks like your luck has rubbed off! Once you pass away, you will be sent to the overworld without your memories! Have fun in your next life.-Window ',
+        options: [['opener', 'Back to the start we go...']],
+    },
+
+    b26: {
+        text: 'Congratulations! You have been thrown into the boss room! At least it wasn’t death!',
+        options: [['bcp2', 'Continue...']],
+    },
+
+    b27: {
+        text: 'Congratulations! You have been thrown into the boss room! At least it wasn’t death!',
+        options: [['bcp2', 'Continue...']],
+    },
+
+    b28: {
+        text: 'How Unfortunate! Sorry user(s): Dante, Darcy, and Joel. You have chosen the wrong choice and as a consequence, you have been bestowed death by the ǧ̸̡̣͎̖̗̲̇o̷̡̩̗͙̻̤͓̠̍̏̓̅̋͗̊̕d̵̺͙̮̎̾̊̽̃̍͑ś̵̟͕̠̏͜ . Good Luck next time-Window',
+        options: [['opener', 'Good Luck next time! Back tot start you go.']],
+    },
+
+    b29: {
+        text: 'Joel: “HEY GUYS, I see an armor chestplate over here I’m going to take it!” Darcy:”Sure, I found some mana scrolls, I’m also taking something, what about you Don?” Don: “Yeah, on it, I’m taking this  windbook spell” Darcy: “HEY, while you’re there can you grab some crystal shards?” Don: “Yeah that’s right Cade wanted some. I got it dw” After grabbing your desired object(s) the ceiling started to collapse and so you guys ran out of the door you came through. Instead of finding yourselves in the trap room again, you guys are now inside the boss room.',
+        options: [['bcp2', 'Continue...']],
+    },
+
+        // DIVISION cp 2
+    bcp2: {
+        text: 'Fellow adventurers, you have been forced into the dungeon. After the platform rose, you guys found yourselves in the middle of a summoning circle. Surrounded by four stones in a diamond formation, Sapphire, Ruby, Moonstone, and Emerald, you guys stared around in confusion. Without being able to think properly, something started to happen, after running out of the circle, you guys see a creature summoned.“Welcome to the Boss Room. Your goal is to beat the Finnoe and successfully reclaim the stones. After beating this boss, you can reclaim the four stones, use it to level up or for future dungeons. Sapphire Attributes: used for creating red powder (extremely deadly) and for creating t̶̮͈͙͚͔͎͎̙̲̄̂h̵͇̠̯̾̇e̸̙̗̥̯̓̀̑̏̄̅͌̚ ̶̳̺͖̾͒͝a̸̢̯̲͆͌l̵̯̱̞̼̬̖̮͍̭͕͂͑̓́̋͊̈́ḷ̴́̉͛͋͝͠  Emerald Attributes: used for bribery or enchanting  MoonStone Attributes: can be used for  P̶͉͎͚̱̖͐o̷͙̺̺͎̾͆̀s̵̻͉̞̤̋̃ě̷͓̞͚̠̺͕̺̳̰̿́̃̊̓̑̆̑͠î̴̞̫͔̰̯̗n–n̴̼͓̄̌͌̃ş̵͉̪́͗͗̈́̑̈̈́̇ẗ̷̼̟̹͌̏̑̈́́  ERROR: SYSTEM SHUTTING DOWN! No further Information! Check back later. In confusion, you, Darcy, and Joel look in front of you where a Finnoe is spawned. Not getting any information about the Finnoe, you guys start to test your limits. After poking around a bit, Darcy realizes that the Finnoe is enchanted by shiny things, but it also has mana. Once agitated enough, it will start to summon destructive mana hulls. How will you go about defeating the Finnoe?',
+        options: [['b30', 'If darcy can hold off the beast for a bit, i can summon a barrier spell, encasing the Finnoe in a fire cage'], ['b31','If Joel can keep a close distance, i can support his blind sides while Darcy can ensure that the Finnoe encounters obstacles while it\'s flying or running']],
+    },
+
+    b30: {
+        text: 'After agreeing, you guys get into position. Don: “Darcy! Can you guys hold him off?” Jeol:” Yeah! GET ON IT! He isn’t focused for long” Darcy: “QQuickly kid, get your head out of the clouds, my mana is depleting, and quickly” As you quicken your pace, you dig around in your bag and window. Window! How can i h31p you: Us3r Dante!Potion option unavailable: Potion in inventory (1) Opening now... After trying to cancel the window action, it says error and opening now. Frustrated, you let it open to see what it does. *BOOOOOOM* Upon awakening, you find Darcy and Joel hovering above you, without your knowledge, you assumed that Finnoe had died but you hadn’t a clue.Darcy: “Hey kid, what’d you do? I saw an explosion in your direction and suddenly we were gone?” Joel: “HEY THIS ISN\'T TIME TO CHIT CHAT! LOOK OVER THERE! THE FINNOE MULTIPLIED” It occurred to you that the potion had clearly done something, just not in your favor Welcome Adventurers! We have helped you! By multiplying the Finnoe, you will now be able to d̷͎̱̑̅̏͛́͒́͜-i̸̥̳͝e̸̗̫̼̪̯̦̦̘͆͊̏̎̐̎̅ Error: Shutting down! Oddly enough, the window didn’t seem to be functioning inside this dungeon. After poking around more, Darcy, Joel, and yourself had finally made it. After depleting your mana and stamina, you guys finally saw a sapphire. It seemed to be embedded in the wall and quickly crushed it. Recalling what the window said earlier, you guys threw it into its eyes from all sides. After a minute the finnoes slowly fell one by one. After sighing in relief, you guys claim your hard fought rewards and leave. ',
+        options: [['bcp3', 'Continue...']],
+    },
+
+    b31: {
+        text: 'As Joel tried to close in his distance with the finnoe, it would simply send out a hurl that kept him away. Joel: “HEY! I can’t go near him?” Don: “GIMME A MIN! I can cast a barrier spell around ya” Darcy: “QUICKLY! IT\'S COMING” After the casting, you guys continue your method and find yourselves rather exhausted and depleted. Putting some mana into Joel’s enchanted sword and Darcy using a mud pillar to launch him, Joel dash at the Finnoe. He took a deep breath and with all his might + the powers you casted on him, he sliced through the Finnoe killing it. After it dropped, its body despawned dropping the four stones. After taking the four stones, you guys leave.',
+        options: [['', '']],
+    },
+
+    // DIVISION bcp3 
+    bcp3: {
+        text: 'CONGRATS! You have passed the dungeon of shards. Pardon my connection within the dungeons as it isn’t always well. USER(S): Darcy, Joel, and Dante have now been entered into the database.You are now watched. After trying to figure out how to avoid being watched the window kicked you out and teleported you onto a hill. After getting out of the dungeon, you guys talk a little more. Darcy: “That was definitely a dungeon alright” Don: “Fsfs, I hated that, but bro these rewards are helping me big time. I’m going to make my way back to Cade: I have his cave shards, did you wanna raid gain later?” Joel: “I don’t know about Darcy, but I’m down, my sword feels so light after infusing it with that emerald” Don : “Alright, Cya later! Meet back in 38?” Darcy: “Yeah sure”  After making your way out, you head back to Cade where you give him the shards. After telling him a bit about your first raid, you go home and sleep for the night. Tired, you relax for the next three days, and then make your way up to the hill to meet the other two. ',
+        options: [['bcp4', 'Continue...']],
+    },
+
+    // DIVISION branching off into default branch here
+
+    bcp4: {
+        text: 'After having agreed upon meeting up after three days, you find yourself being the second to arrive next to Darcy. As you guys wait for Joel to make his way up you guys start filling one another in on how your break was. Once Joel makes his way up, you guys start planning where you guys wish to head next. Upon taking out a map and then heading to town, you guys hear rumors about the Dungeon of Nyden. Having caught your attention, you three start to search for it, after a week of looking you guys meet up near a swamp where you guys finally found it. After entering the dungeon, you guys are attacked by bat like creatures using echo location to find their way around the caves. Upon frying it, quite literally with your fire prowess, you guys continue heading south. After heading south for what seemed like ages,  you guys collected useful items along the way, and called it an night there. Upon awakening, as you guys continued roaming through the dark halls, you heard the echoes of voices coming from the other side of a red door you guys stumbled upon. Your instincts are screaming at you to stay away, but you along with the other let your curiosity get in the way and ends up entering regardless. When you enter, you see a raging Ahgif. *a window appears* Creature: Ahgif About: These creatures are extremely impulsive and irritable, negotiations will fail. If encountered, aim for their young or find another way to defeat Good Luck Adventurer! So, will you fight it or will you run?',
+        options:[['a8', 'Fight with the others to defeat the Ahgif '], ['a9' , '“Over here!” As you guys run away, you guys enter a small cave that would only shelter you for so long. Eventually you will meet the Ahgif again']],
+    },
+
+   
     // start of branch 3
     c1: {
         text:'You ended up ignoring the fairy thinking she wouldn\'t make a difference anyway and ended up exploring your surroundings. As you start wandering, you enter the mist-ridden forest where you get lost and you hear the voice of what seems to be another human? As you follow the voice, you find them standing in front of a tree and you introduce yourself. Now that you’ve met her, what will you do?',
