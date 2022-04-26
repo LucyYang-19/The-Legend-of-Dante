@@ -9,9 +9,9 @@
     background-color: #9DADEB;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1010px;
+    height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-/* background-image: url(imgs/intro1.jpg.jpg); */
+background-image: url(imgs/dawn.png);
   }
   
   /* heading */
@@ -50,7 +50,7 @@
   }
 
   .btn:hover {
-    background-color: rgb(154, 170, 188);
+    background-color: rgb(183, 154, 188);
   }
 
   #smallArea{
@@ -59,11 +59,21 @@
   }
 
   #playArea, #buttonArea{
-    color: whitesmoke;
-    padding-left: 280px; padding-right: 280px; padding-top: 20px;
+color: white;
+font-weight: bolder;
+font-size: larger;
+padding-left: 280px; padding-right: 280px; padding-top: 20px;
+    
   }
 
   button {
-    width: 350px;
-    height: 90px;
+    width: 32%;
+    min-height: 90px;
+    /*margin-left: 1em;*/
+  }
+
+  #buttonArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
