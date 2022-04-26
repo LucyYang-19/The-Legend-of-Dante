@@ -606,10 +606,15 @@ c25: {
 },
 c26: { 
     text:'The fairy appears. The fairy caught you by surprise. But before you could question it, the fairy shoots a beam at you. You\'re immediately knocked out. A rapid stream of data was traveling straight into your brain. You wake up almost a second later with Darcy and Joel surrounding you. You\'ve gained information about your mom, and now you come to the conclusion that you need to conquer the world\'s dungeons.',
-    options:[['', ''] ,['', '']],
+    options:[['ccp1', 'Continue...']],
 
     //Hello, Dante! You are continuing the g̴̖̊͛̍a̶͉͖͕̟̝̭͊͋́͛͐̌m̴͇̱͍̊̀̃̚̕e̶̢͍̳̻̓̒̋̒̆̂̍̀͌͝ͅ.
     //Goodluck! You are just like 🅂🅄🄺🄸!  ☺̵̞̋̃͑̾̚
+},
+
+ccp1: {
+    text: 'After learning of your new goal, you three decide to meet up once more, Upon meeting up you guys start seaching for a newly opened dungeon. After finding and  entering the dungeon, you guys are attacked by bat like creatures using echo location to find their way around the caves. Upon frying it, quite literally with your fire prowess, you guys continue heading south. After heading south for what seemed like ages,  you guys collected useful items along the way, and called it an night there. Upon awakening, as you guys continued roaming through the dark halls, you heard the echoes of voices coming from the other side of a red door you guys stumbled upon. Your instincts are screaming at you to stay away, but you along with the other let your curiosity get in the way and ends up entering regardless. When you enter, you see a raging Ahgif. *a window appears* Creature: Ahgif About: These creatures are extremely impulsive and irritable, negotiations will fail. If encountered, aim for their young or find another way to defeat Good Luck Adventurer! So, will you fight it or will you run?',
+    options:[['a8', 'Fight with the others to defeat the Ahgif '], ['a9' , '“Over here!” As you guys run away, you guys enter a small cave that would only shelter you for so long. Eventually you will meet the Ahgif again']],
 },
 
 };
@@ -619,6 +624,7 @@ var x = document.getElementById("btn");//start button
 var restart = document.getElementById("restart");//restart button
 var playArea = document.getElementById("playArea");//refers to play area
 var buttonArea = document.getElementById("buttonArea");//refers to buttons
+
 
 function createButton(btnText, choice) {
   var button = document.createElement("button"); //creates the button
@@ -661,3 +667,7 @@ x.addEventListener("click", function(){// start button click
   createlegendoDon(legendoDon.opener.text);//run createStory
   restart.style.display = '';//shows restart button
 });
+
+
+// https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
+// use this to change background, we'll need to get the element with innerHTML and then use the id or class to then change it inside css
