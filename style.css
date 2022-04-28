@@ -69,11 +69,21 @@ padding-left: 280px; padding-right: 280px; padding-top: 20px;
   button {
     width: 32%;
     min-height: 90px;
+    background-color: beige;
+    color: orange;
+    font-weight: bolder;
     /*margin-left: 1em;*/
+  }
+  #restart {
+    background-color: rgb(205, 19, 19);
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
   }
 
   #buttonArea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
