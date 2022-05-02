@@ -669,5 +669,9 @@ x.addEventListener("click", function(){// start button click
 });
 
 
+// testing to see if I can get each of the opitions into an individual class
+
+document.getElementById("legendoDon").classList.add('a1');
+
 // https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
 // use this to change background, we'll need to get the element with innerHTML and then use the id or class to then change it inside css
