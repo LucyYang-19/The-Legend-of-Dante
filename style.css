@@ -8,10 +8,9 @@
   .bg {
     background-color: #9DADEB;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(/imgs/clouds.webp);
+  background-size: cover;
   }
   /* heading */
   .title{
@@ -90,4 +89,8 @@ padding-left: 280px; padding-right: 280px; padding-top: 20px;
   /* options */
   .a1{
     background-image: url('/imgs/mapu.png');
+  }
+
+  #playArea{
+  line-height: 1.5;
   }

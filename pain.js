@@ -1,7 +1,8 @@
 
+var linebreak = '\n';
 var legendoDon = {
     opener: {
-        text: "It is a Friday afternoon when you just get home from school and start getting yourself settled down. On such an eventful day, your own birthday, your dad wasn't even here and your mother, well only her remnants are left now. Knowing it’s your birthday and you’re alone like usual, you put on your shoes, grab your wallet, and head out across the street to the closest convenience store. When you walk out, you have a drink i one hand and a box with a small vanilla cake with strawberry custard in another.You make your way across the street and start walking home.When you get home you grab the small brown coffee table and place it down in front of you while you unwrap the cake box.Feeling a bit lonely, you walk to the restroom to get yourself situated and then head up to the attic to grab a picture of your mother.As you're exploring the attic you see a shiny object in your peripheral vision and decide to check it out.After moving the boxes on top of it out of the way, you see a box with a key hole and a key tied on top of it along with a picture of your grandfather.You decide to bring it down with you and set it at the corner of the table.Putting a candle on top of the cake, you light it and make a wish, as you feel tears rolling down, you start to feel ridiculous crying since this wasn’t the first time this has happened.As you cut the cake and eat a slice, your eyes start to wander back to the box you took down and you decide to open it.Upon opening the box, you put your hand in and you grab what seems to be a locket of your grandmother.A moment later, you start to feel weird, for some odd reason, you seem to be disappearing.As you look at the cake and then back at your hands, you simply smile and accept what’s about to happen.A few hours later you feel your eyes start to open, but you ask yourself how you were watching yourself disappear. A couple minutes later a small creature with wings appears next to you. Mysteriously, she approaches you and starts to communicate with you.",
+        text: "It is a Friday afternoon when you just get home from school and start getting yourself settled down. On such an eventful day, your own birthday, your dad wasn't even here and your mother, well only her remnants are left now. Knowing it’s your \n birthday and you’re alone like usual, you put on your shoes, grab your wallet, and head out across the street to the closest convenience store. When you walk out, you have a drink i one hand and a box with a small vanilla cake with strawberry custard in another.You make your way across the street and start walking home.When you get home you grab the small brown coffee table and place it down in front of you while you unwrap the cake box. Feeling a bit lonely, you walk to the restroom to get yourself situated and then head up to the attic to grab a picture of your mother. As you're exploring the attic you see a \n shiny object in your peripheral vision and decide to check it out.After moving the boxes on top of it out of the way, you see a box with a key hole and a key tied on top of it along with a picture of your grandfather.You decide to bring it down with you and set it at the corner of the table.Putting a candle on top of the cake, you light it and make a wish, as you feel tears rolling down, you start to feel ridiculous crying since this wasn’t the first time this has happened.As you cut the cake and eat a slice, your eyes start to wander back to the box you took down and you decide to open it.Upon opening the box, you put your hand in and you grab what seems to be a locket of your grandmother.A moment later, you start to feel weird, for some odd reason, you seem to be disappearing.As you look at the cake and then back at your hands, you simply smile and accept what’s about to happen.A few hours later you feel your eyes start to open, but you ask yourself how you were watching yourself disappear. A couple minutes later a small creature with wings appears next to you. Mysteriously, she approaches you and starts to communicate with you.",
         options: [["a1", 'Sure, yeah I\'ll follow, but ya know, where are we going first??'], ["b1", 'Are you talking to me!?!, bro what even are you?? How can you talk?'], ["c1", 'Eh, it has no significance whatsoever, just ignore him and move along']]
     },
     // start of branch 1
@@ -581,11 +582,8 @@ c21: {
     options:[['c17', 'Take on the Villains yourself. You got this'], ['c18', 'You try to negotiate with the villains.']],
 },
 c22: { 
-    text:'The knight enjoys your praise and takes you under his wing. He asks about you. You continue to tell him everything that has happened up to this point. He introduces himself as Joel. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.',
-    //Knight: What city are you from? 
-//Dante: I’m from Osaka Japan, where am I? 
-//Knight: “Osaka Japan? Never heard of that region. You currently reside in Chesternet, in the Glegora Kingdom.”
-//Dante: …. I don’t think I’m from this world…
+    text:'The knight enjoys your praise and takes you under his wing. He asks about you. \n Knight: What city are you from? \n Dante: I’m from Osaka Japan, where am I? \n Knight: “Osaka Japan? Never heard of that region. You currently reside in Chesternet, in the Glegora Kingdom.” \n Dante: …. I don’t think I’m from this world… \n You continue to tell him everything that has happened up to this point. He introduces himself as Joel. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.',
+    
 
     options:[['c19', 'Girls are disgusting, No.'], ['c20', 'Attempt to associate with Darcy']],
 }, 
@@ -618,7 +616,9 @@ ccp1: {
 },
 
 };
-   
+
+var linebreak = '\n';
+
 var playerChoices = ["opener"];//array containing variables
 var x = document.getElementById("btn");//start button 
 var restart = document.getElementById("restart");//restart button
@@ -666,6 +666,7 @@ restart.style.display = 'none';//hides restart button
 x.addEventListener("click", function(){// start button click
   createlegendoDon(legendoDon.opener.text);//run createStory
   restart.style.display = '';//shows restart button
+
 });
 
 
