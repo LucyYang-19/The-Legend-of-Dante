@@ -2,7 +2,7 @@
 var linebreak = '\n';
 var legendoDon = {
     opener: {
-        text: "It is a Friday afternoon when you just get home from school and start getting yourself settled down. On such an eventful day, your own birthday, your dad wasn't even here and your mother, well only her remnants are left now. Knowing it’s your \n birthday and you’re alone like usual, you put on your shoes, grab your wallet, and head out across the street to the closest convenience store. When you walk out, you have a drink i one hand and a box with a small vanilla cake with strawberry custard in another.You make your way across the street and start walking home.When you get home you grab the small brown coffee table and place it down in front of you while you unwrap the cake box. Feeling a bit lonely, you walk to the restroom to get yourself situated and then head up to the attic to grab a picture of your mother. As you're exploring the attic you see a \n shiny object in your peripheral vision and decide to check it out.After moving the boxes on top of it out of the way, you see a box with a key hole and a key tied on top of it along with a picture of your grandfather.You decide to bring it down with you and set it at the corner of the table.Putting a candle on top of the cake, you light it and make a wish, as you feel tears rolling down, you start to feel ridiculous crying since this wasn’t the first time this has happened.As you cut the cake and eat a slice, your eyes start to wander back to the box you took down and you decide to open it.Upon opening the box, you put your hand in and you grab what seems to be a locket of your grandmother.A moment later, you start to feel weird, for some odd reason, you seem to be disappearing.As you look at the cake and then back at your hands, you simply smile and accept what’s about to happen.A few hours later you feel your eyes start to open, but you ask yourself how you were watching yourself disappear. A couple minutes later a small creature with wings appears next to you. Mysteriously, she approaches you and starts to communicate with you.",
+        text: "It is a Friday afternoon when you just get home from school and start getting yourself settled down. On such an eventful day, your own birthday, your dad wasn't even here and your mother, well only her remnants are left now. Knowing it’s your birthday and you’re alone like usual, you put on your shoes, grab your wallet, and head out across the street to the closest convenience store. When you walk out, you have a drink i one hand and a box with a small vanilla cake with strawberry custard in another.You make your way across the street and start walking home.When you get home you grab the small brown coffee table and place it down in front of you while you unwrap the cake box. Feeling a bit lonely, you walk to the restroom to get yourself situated and then head up to the attic to grab a picture of your mother. As you're exploring the attic you see a \n shiny object in your peripheral vision and decide to check it out.After moving the boxes on top of it out of the way, you see a box with a key hole and a key tied on top of it along with a picture of your grandfather.You decide to bring it down with you and set it at the corner of the table.Putting a candle on top of the cake, you light it and make a wish, as you feel tears rolling down, you start to feel ridiculous crying since this wasn’t the first time this has happened.As you cut the cake and eat a slice, your eyes start to wander back to the box you took down and you decide to open it.Upon opening the box, you put your hand in and you grab what seems to be a locket of your grandmother.A moment later, you start to feel weird, for some odd reason, you seem to be disappearing.As you look at the cake and then back at your hands, you simply smile and accept what’s about to happen.A few hours later you feel your eyes start to open, but you ask yourself how you were watching yourself disappear. A couple minutes later a small creature with wings appears next to you. Mysteriously, she approaches you and starts to communicate with you.",
         options: [["a1", 'Sure, yeah I\'ll follow, but ya know, where are we going first??'], ["b1", 'Are you talking to me!?!, bro what even are you?? How can you talk?'], ["c1", 'Eh, it has no significance whatsoever, just ignore him and move along']]
     },
     // start of branch 1
@@ -478,25 +478,14 @@ c4: {
 
 },
 c5: { 
-    text:'You decide to wander the forest, and continue to question why you are even here. After walking for several hours you\'re exhausted. In the midst of your thinking you\'re caught off guard by what seems to be a light in the distance. You run to the light in desperation that the light is a sign of human settlements.  As you continue to approach the light, a foul stench clouds your nose. You slowly approach the light and see it moving. The light seems to be alive. As you continue to stare, you start to notice it has features of what seems to be a dog. There\'s multiple spirit looking dogs feasting on what seems to be an elk. Will you wait for the creatures to finish their feast or run away? ',
+    text:`You decide to wander the forest, and continue to question why you are even here. After walking for several hours you're exhausted. In the midst of your thinking you're caught off guard by what seems to be a light in the distance. You run to the light in desperation that the light is a sign of human settlements. As you continue to approach the light, a foul stench clouds your nose. You slowly approach the light and see it moving. The light seems to be alive. As you continue to stare, you start to notice it has features of what seems to be a dog. <br><br> "Welcome! I am Window!" <br><br> "I am here to help you along your adventures. As you encounter new creatures and quests, you will see me a lot!" <br><br> "Creature: Udashes" <br><br> "About: These are wolf-like creatures who are territorial and only attack if threatened." <br><br> "Stats: 120/120 hp" <br><br> There's multiple spirit looking dogs feasting on what seems to be an elk. Will you wait for the creatures to finish their feast or run away?`,
     options:[['c8', 'Quitely stay low from where you\'re standing without making a noise'], ['c9', 'Go about the encounter slowly and try to escape']],
 
-   // “Welcome!
-//I am Window! I am here to help you along your adventures.
-//As you encounter new creatures and quests, you will see me a lot!
-
- //Creature: Udashes
-//About: These are wolf-like creatures who are territorial and only attack if threatened.
-//Stats: 120/120 hp//
 },
 c6: { 
-    text:'You open the book, and by surprise you\'re able to understand it. You find yourself lost in your reading and lose track of time.  A sudden door slam slaps you out of your trance. You look in the direction of the sound and see a silouhette of someone with a stupid looking hat. "Who goes there?" says the mysterious figure. His stoic voice echoed across the room. What do you do?',
+    text:`You open the book, and by surprise youre able to understand it. You find yourself lost in your reading and lose track of time. <br><br> “Welcome! I am Window!" <br><br> "I am here to help you along your adventures." <br><br> "As you encounter new creatures and quests, you will see me a lot!" <br><br> "Skill: Flame Magic Acquired!" <br><br> "Descriptions: Close-mid-range attack" <br><br> A sudden door slam slaps you out of your trance. You look in the direction of the sound and see a silouhette of someone with a stupid looking hat. "Who goes there?" says the mysterious figure. His stoic voice echoed across the room. What do you do?`,
     options:[['c10', 'You respond with, "Your mom."'] ,['c11', 'You explain how you\'re lost']],
-    //“Welcome!
-    //I am Window! I am here to help you along your adventures.
-    //As you encounter new creatures and quests, you will see me a lot!
-    //Skill: Flame Magic Acquired!
-    //Descriptions: Close-mid-range attack
+  
     
 },
 c7: { 
@@ -516,21 +505,21 @@ c10: {
     options:['start', 'Game Over'],
 }, 
 c11: { 
-    text:'You continue to tell the man of your otherworldly experiences and he seems very understanding. You tell the man all of what has happened to you. He seems very wise and asks you if you want to be his apprentice.',
+    text:`<br><br>Dante: “Yoyoyo chill, I don’t mean no harm, I got lost”
+    <br><br> Man: “Chill? Is that some type of spell? Who are you and where are you from? A thief!?”
+    <br><br> Dante: “Nonono I was lost in the woods and the cabin door was already opened. My name is Dante and I’m from Osaka.”
+    <br><br> Man: “Osaka? I’ve never heard of that region. And you said the door was open? Darn that Darcy.”
+    <br><br> Dante: “Osaka Japan, never heard of it?”
+    <br><br> Man: "No, what part of the world are you from? You are currently in Chesternet that resides in Glegora Kingdom.”
+    <br><br> Dante: “I… don’t think I'm from this world.”
+     <br><br> You continue to tell the man of your otherworldly experiences and he seems very understanding. You tell the man all of what has happened to you. He seems very wise and asks you if you want to be his apprentice.`,
     options:[['c14', 'Decline and be on your merry way'] ,['c15', 'Accept his offer graciously']],
-    //Dante: “Yoyoyo chill, I don’t mean no harm”
-   // “I got lost”
-   //Man: “Chill? Is that some type of spell? Who are you and where are you from? A thief!?”
-    //Dante: “Nonono I was lost in the woods and the cabin door was already opened. My name is Dante and I’m from Osaka .”
-   // Man: “Osaka? I’ve never heard of that region. And you said the door was open? Darn that Darcy.”
-    //Dante: “Osaka Japan, never heard of it?”
-    //Man: No, what part of the world are you from? You are currently in Chesternet that resides in Glegora Kingdom.”
-    //Dante: “I… don’t think I'm from this world.”
+   
     
 }, 
 c12: { 
     text:'No problem, I used a spell to save you. What\'s your name, young traveler? You reveal your name as Dante and he asks if you would like to follow him to his cabin.',
-    option:[['c16', '"No I\'m fine thank you very much.'] ,['c16', 'Yes please get me out of this crazy forest.']],
+    options:[['c16', '"No I\'m fine thank you very much.'] ,['c16', 'Yes please get me out of this crazy forest.']],
 }, 
 c13: { 
     text:'I\'m glad to see you\'re still alive. I see that you\'re injured, hungry, lost, and confused. Do you want to go back to my cabin?',
@@ -545,9 +534,10 @@ c15: {
     options:[['c19', 'Girls are disgusting, No.'] ,['c20', 'Attempt to associate with Darcy']],
 }, 
 c16: { 
-    text:'You continue to walk away, but before you can take a step, you notice yourself falling. Your eyes are now closed and before your conscience fades away, you hear the old man asking if you\'re okay. You awake to the smell of something delicious. You check your surroundings to notice that you\'re on a couch near a fireplace. The walls are wooden and you feel cozy. When you try standing up, you collapse almost immediately. Someone rushes to your assistance and when you look up you see the old man that saved you earlier. There was no hostility in the man\'s voice so you gave him your trust. He helps you back on the couch and leaves you. He comes back with what seems to be tea and bread. You instinctively start snarfing down the food that was given and the old man sits next to you. The man then asks you to talk about yourself.  You tell the man all of what has happened to you. He seems very wise and understanding and offers you to be his apprentice.',
+    text:`You continue to walk away, but before you can take a step, you notice yourself falling. Your eyes are now closed and before your conscience fades away, you hear the old man asking if you're okay. You awake to the smell of something delicious. You check your surroundings to notice that you're on a couch near a fireplace. The walls are wooden and you feel cozy. When you try standing up, you collapse almost immediately. Someone rushes to your assistance and when you look up you see the old man that saved you earlier. 
+    <br><br> Man: "You shouldn't get up, traveler, you've reached your limit." 
+    <br><br> There was no hostility in the man's voice so you gave him your trust. He helps you back on the couch and leaves you. He comes back with what seems to be tea and bread. You instinctively start snarfing down the food that was given and the old man sits next to you. The man then asks you to talk about yourself.  You tell the man all of what has happened to you. He seems very wise and understanding and offers you to be his apprentice.`,
     options:[['c21', 'No I can handle myself'], ['c15', 'Yes teach me the secrets of this world']],
-    //Man: "You shouldn't get up, traveler, you've reached your limit." 
 }, 
 c17: { 
     text:'You get your butt beat and before they could deal the final blow you hear someone yell stop. Too scared to look up you keep your head on the floor. You hear metal trinkets running towards you and when you look up you see what seems to be a knight. The knight was very skillful and managed to disarm the thugs. He single handedly tied the three thugs up.',
@@ -600,7 +590,7 @@ c24: {
 }, 
 c25: { 
     text:'After years of traveling alone and monster fighting in life threatening situations, you and Darcy become a thing, congrats! You meet up with Joel after traveling and update him. He congratulates you both and talks about challenging the world\'s dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God\'s wish is granted upon the dungeon conqueror.',
-    option:[['c26', 'Heck yea let\'s go!'], ['c226', 'Nah I\'m ok']],
+    options:[['c26', 'Heck yea let\'s go!'], ['c226', 'Nah I\'m ok']],
 },
 c26: { 
     text:'The fairy appears. The fairy caught you by surprise. But before you could question it, the fairy shoots a beam at you. You\'re immediately knocked out. A rapid stream of data was traveling straight into your brain. You wake up almost a second later with Darcy and Joel surrounding you. You\'ve gained information about your mom, and now you come to the conclusion that you need to conquer the world\'s dungeons.',

@@ -11,7 +11,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(/imgs/clouds.webp);
   background-size: cover;
-  }
+min-height: 100vh;  
+
+
+}
   /* heading */
   .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -77,6 +80,10 @@ padding-left: 280px; padding-right: 280px; padding-top: 20px;
     color: white;
     font-weight: bolder;
     font-size: larger;
+    margin-left: 5.25vw;
+    margin-top: 5vw;
+    border-radius: 5px;
+    
   }
 
   #buttonArea {
