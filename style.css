@@ -20,7 +20,7 @@ min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     margin-left: 31vw;
-    padding-top: 12vw;
+    padding-top: 2vw;
     width: 50%;
     color: white;
   }
@@ -59,12 +59,40 @@ min-height: 100vh;
     padding-top:50px;
   }
 
-  #playArea, #buttonArea{
+  #buttonArea{
 color: white;
 font-weight: bolder;
 font-size: larger;
-padding-left: 280px; padding-right: 280px; padding-top: 20px;
+padding-left: 5%; padding-right: 280px; padding-top: 20px; 
+
     
+  }
+ #playArea{
+   background-color: rgba(123, 129, 165, 0.538);
+  color: white;
+  font-weight: bolder;
+  font-size: larger; 
+  padding: 1%;
+  margin-left: 5%;
+ 
+ }
+
+
+  .choiceArea{
+    color:white;
+   
+    opacity: 90%;
+    padding-right: 10%;
+    margin-right: 5%; margin-left: 5%;
+  }
+
+  .mini-flex{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .choiceArea{
+    width: 5%;
   }
 
   button {
@@ -80,8 +108,6 @@ padding-left: 280px; padding-right: 280px; padding-top: 20px;
     color: white;
     font-weight: bolder;
     font-size: larger;
-    margin-left: 5.25vw;
-    margin-top: 5vw;
     border-radius: 5px;
     
   }
