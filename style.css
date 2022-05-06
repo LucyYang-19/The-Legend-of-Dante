@@ -49,16 +49,16 @@ min-height: 100vh;
     width: 10vw;
 
   }
-
+/* top text supposed to disappear*/
   .btn:hover {
     background-color: rgb(183, 154, 188);
   }
-
+/* restart button area */
   #smallArea{
     padding-left: 680px;
     padding-top:50px;
   }
-
+/* button area*/
   #buttonArea{
 color: white;
 font-weight: bolder;
@@ -67,6 +67,8 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
 
     
   }
+  /* play area*/
+
  #playArea{
    background-color: rgba(123, 129, 165, 0.538);
   color: white;
@@ -77,6 +79,7 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
  
  }
 
+  /* choice area*/
 
   .choiceArea{
     color:white;
@@ -86,6 +89,8 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
     margin-right: 5%; margin-left: 5%;
   }
 
+  /* button flex area*/
+
   .mini-flex{
     display: flex;
     flex-direction: row;
@@ -94,7 +99,7 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
   .choiceArea{
     width: 5%;
   }
-
+  /* main play buttons*/
   button {
     width: 32%;
     min-height: 90px;
@@ -103,6 +108,8 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
     font-weight: bolder;
     /*margin-left: 1em;*/
   }
+    /* restart button*/
+
   #restart {
     background-color: rgb(205, 19, 19);
     color: white;
@@ -111,6 +118,7 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
     border-radius: 5px;
     
   }
+  /* button area*/
 
   #buttonArea {
     display: flex;
@@ -126,4 +134,144 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
 
   #playArea{
   line-height: 1.5;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .bg {
+      background-color: #9DADEB;
+      background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/imgs/clouds.webp);
+    background-size: cover;
+  min-height: 1vh;  
+  
+  
+  }
+    /* heading */
+    .title{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 4rem;
+      margin-left: 31vw;
+      padding-top: 2vw;
+      color: white;
+      width: 100%;
+  order: 0;
+  align-self: 10; 
+
+    }
+   
+    /* description */
+    .descript{
+      margin-left: 10vw;
+      padding-top: 10px;
+      font-size: large;
+      color: whitesmoke;
+      width: 100%;
+      order: 0;
+      align-self: 10; 
+    
+    }
+  
+    /* paragrapgh */
+    p{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+    }
+    
+    /* button design */
+    #btn{
+     
+      margin-left: 43vw;
+      margin-top: 5vw;
+      border-radius: 5px;
+      width: 10vw;
+  
+    }
+  /* top text supposed to disappear*/
+    .btn:hover {
+      background-color: rgb(183, 154, 188);
+    }
+  /* restart button area */
+    #smallArea{
+      padding-left: 680px;
+      padding-top:50px;
+    }
+  /* button area*/
+    #buttonArea{
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  padding-left: 5%; padding-right: 280px; padding-top: 20px; 
+  
+      
+    }
+    /* play area*/
+  
+   #playArea{
+     background-color: rgba(123, 129, 165, 0.538);
+    color: white;
+    font-weight: bolder;
+    font-size: larger; 
+    padding: 1%;
+    margin-left: 5%;
+   
+   }
+  
+    /* choice area*/
+  
+    .choiceArea{
+      color:white;
+     
+      opacity: 90%;
+      padding-right: 10%;
+      margin-right: 5%; margin-left: 5%;
+    }
+  
+    /* button flex area*/
+  
+    .mini-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .choiceArea{
+      width: 5%;
+    }
+    /* main play buttons*/
+    button {
+      width: 32%;
+      min-height: 90px;
+      background-color: beige;
+      color: orange;
+      font-weight: bolder;
+      /*margin-left: 1em;*/
+    }
+      /* restart button*/
+  
+    #restart {
+      background-color: rgb(205, 19, 19);
+      color: white;
+      font-weight: bolder;
+      font-size: larger;
+      border-radius: 5px;
+      
+    }
+    /* button area*/
+  
+    #buttonArea {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+  
+    /* options */
+    .a1{
+      background-image: url('/imgs/mapu.png');
+    }
+  
+    #playArea{
+    line-height: 1.5;
+    }
   }

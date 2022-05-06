@@ -543,13 +543,15 @@ c17: {
     options:[['c22', 'You thank the knight graciously'] ,['c23', 'Pfft I didn\'t need help anyway']],
 }, 
 c18: { 
-    text:'You ask them if you can join their ranks. Their expression eases and they agree to take you in. You start your life as a thug and live on the run for a few months. You are slain by a knight when attempting to steal from an old lady. loser.',
-    //Dante : Hey guys hahaha what if we just calm down a bit.
-//Thief 1: “Where you from? Your clothes aren’t from around here.”
-//Thief 2: “Maybe we can sell it for a lot of ka ching!”
-//Thief 3: “Yea yea yea!”
-//Dante: “Wait a second, I come from a long lineage of assassins and they sent me here for training. Please teach me your ways in thievery!..”
-//Thieves: …. The more the merrier >:D”
+    text: `You ask them if you can join their ranks. 
+    <br><br> Dante : "Hey guys hahaha what if we just calm down a bit."
+    <br><br> Thief 1: “Where you from? Your clothes aren’t from around here.”
+    <br><br> Thief 2: “Maybe we can sell it for a lot of ka ching!”
+    <br><br> Thief 3: “Yea yea yea!”
+    <br><br> Dante: “Wait a second, I come from a long lineage of assassins and they sent me here for training. Please teach me your ways in thievery!..”
+    <br><br> Thieves: "… The more the merrier >:D”
+    <br><br> Their expression eases and they agree to take you in. You start your life as a thug and live on the run for a few months. You are slain by a knight when attempting to steal from an old lady. loser.`,
+    
     options:['start', 'Game Over'],
 }, 
 c19: { 
@@ -571,7 +573,11 @@ c21: {
     options:[['c17', 'Take on the Villains yourself. You got this'], ['c18', 'You try to negotiate with the villains.']],
 },
 c22: { 
-    text:'The knight enjoys your praise and takes you under his wing. He asks about you. \n Knight: What city are you from? \n Dante: I’m from Osaka Japan, where am I? \n Knight: “Osaka Japan? Never heard of that region. You currently reside in Chesternet, in the Glegora Kingdom.” \n Dante: …. I don’t think I’m from this world… \n You continue to tell him everything that has happened up to this point. He introduces himself as Joel. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.',
+    text:`The knight enjoys your praise and takes you under his wing. He asks about you. Knight: What city are you from? 
+    <br><br> Dante: "I’m from Osaka Japan, where am I?"
+    <br><br> Knight: “Osaka Japan? Never heard of that region. You currently reside in Chesternet, in the Glegora Kingdom.” 
+    <br><br> Dante: "…. I don’t think I’m from this world…"
+    <br><br> You continue to tell him everything that has happened up to this point. He introduces himself as Joel. He is very intrigued with you and decides to give you shelter, so he takes you home and introduces you to his parents. His parents are nobles and accept you warmly. From there on, you begin to train to become a knight yourself. You become skilled enough that the knight decides to enroll you in the academy he\'s attending. From there, you enroll as a knight and start your first day of the academy. You introduce yourself to everyone and begin training in the arts and understanding of knighthood and this world. At the academy Joel is your only friend. You are tasked with a final exam that allows you to graduate from the academy with joel. A group of three must accomplish the final quest to graduate. The third person in your party is a mage named Darcy. She was assigned to your group since she was the only other person that was not in one. This girl was always quiet, but studious in the class. You worry about communication but hope it just works out. It is a month-long exam where you all must gain the equivalent experience of killing 200 udashes.`,
     
 
     options:[['c19', 'Girls are disgusting, No.'], ['c20', 'Attempt to associate with Darcy']],
@@ -581,26 +587,32 @@ c23: {
     options:[['c19', 'Girls are disgusting, No.'] ,['c20', 'Attempt to associate with Darcy']],
 }, 
 c24: { 
-    text:'You take the quest and explore the dungeon of truth. After an excruciating and difficult 12 hours. You both reach the vault. In excitement Darcy grabs the vault door and opens it. You were able to detect a curse on the door but it was too late to warn Darcy. The curse activated once she opened the door. She was cursed with a liars baron. Liars Baron curses its target by forcing the victim to tell the truth. Curses cannot be released until a certain condition has been met. Darcy is confused and asks you if everything is alright. You explain to her and she exclaims how she\'s not worried about the curse since she has nothing to hide. Alas! You two have finally reached the dungeons treasury. Darcy randomly starts spouting how much she likes you. She looked shocked. Her mouth couldn\'t stop rambling as she confessed her feelings for you. The more she tried explaining, the more the curse overwrote her lies. There is a mage in town that can help her with the curse. The mage says the only way to break the curse is the ironic method of a kiss from the person that she has kept romantic feelings from. You have consciously developed feelings for Darcy and did not mind this. This quest that was done to gain experience, has also rewarded you with a new relationship.After some time,  you meet up with Joel after one more year of traveling and update him. He congratulates you both and talks about challenging the world\'s dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God\'s wish is granted upon the dungeon conqueror.',
-    // “Welcome to the Dungeon of Truth!
-//Explore the depths of this dungeon to your heart's content, however where treasure awaits, surely you will awake. Baron's truth will start  one’s youth!
+    text:`You take the quest and explore the dungeon of truth. 
+    <br><br> “Welcome to the Dungeon of Truth!
+    <br><br> "Explore the depths of this dungeon to your heart's content, however where treasure awaits, surely you will awake. Baron's truth will start  one’s youth!"
+    <br><br> After an excruciating and difficult 12 hours. You both reach the vault. In excitement Darcy grabs the vault door and opens it. You were able to detect a curse on the door but it was too late to warn Darcy. The curse activated once she opened the door. She was cursed with a liars baron. Liars Baron curses its target by forcing the victim to tell the truth. Curses cannot be released until a certain condition has been met. Darcy is confused and asks you if everything is alright. You explain to her and she exclaims how she's not worried about the curse since she has nothing to hide. Alas! You two have finally reached the dungeons treasury. Darcy randomly starts spouting how much she likes you. She looked shocked. Her mouth couldn't stop rambling as she confessed her feelings for you. The more she tried explaining, the more the curse overwrote her lies. There is a mage in town that can help her with the curse. The mage says the only way to break the curse is the ironic method of a kiss from the person that she has kept romantic feelings from. You have consciously developed feelings for Darcy and did not mind this. This quest that was done to gain experience, has also rewarded you with a new relationship. After some time,  you meet up with Joel after one more year of traveling and update him. He congratulates you both and talks about challenging the world's dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God's wish is granted upon the dungeon conqueror.`,
+    
 
     options:[['c26', 'Heck yea let\'s go!'] ,['c26', 'Nah I\'m ok']],
 }, 
 c25: { 
     text:'After years of traveling alone and monster fighting in life threatening situations, you and Darcy become a thing, congrats! You meet up with Joel after traveling and update him. He congratulates you both and talks about challenging the world\'s dungeons. The world dungeons are the three hardest dungeons that no one has successfully completed. Legend says that once all three dungeons have been conquered, a miracle happens. God\'s wish is granted upon the dungeon conqueror.',
-    options:[['c26', 'Heck yea let\'s go!'], ['c226', 'Nah I\'m ok']],
+    options:[['c26', 'Heck yea let\'s go!'], ['c26', 'Nah I\'m ok']],
 },
 c26: { 
-    text:'The fairy appears. The fairy caught you by surprise. But before you could question it, the fairy shoots a beam at you. You\'re immediately knocked out. A rapid stream of data was traveling straight into your brain. You wake up almost a second later with Darcy and Joel surrounding you. You\'ve gained information about your mom, and now you come to the conclusion that you need to conquer the world\'s dungeons.',
+    text:`The fairy appears. The fairy caught you by surprise. But before you could question it, the fairy shoots a beam at you. You're immediately knocked out. A rapid stream of data was traveling straight into your brain. You wake up almost a second later with Darcy and Joel surrounding you. You've gained information about your mom, and now you come to the conclusion that you need to conquer the world\'s dungeons.',
+     <br><br> "Hello, Dante! You are continuing the g̴̖̊͛̍a̶͉͖͕̟̝̭͊͋́͛͐̌m̴͇̱͍̊̀̃̚̕e̶̢͍̳̻̓̒̋̒̆̂̍̀͌͝ͅ."
+     <br><br> "Goodluck! You are just like 🅂🅄🄺🄸 ☺̵̞̋̃͑̾̚ !"`,
     options:[['ccp1', 'Continue...']],
 
-    //Hello, Dante! You are continuing the g̴̖̊͛̍a̶͉͖͕̟̝̭͊͋́͛͐̌m̴͇̱͍̊̀̃̚̕e̶̢͍̳̻̓̒̋̒̆̂̍̀͌͝ͅ.
-    //Goodluck! You are just like 🅂🅄🄺🄸!  ☺̵̞̋̃͑̾̚
+   
 },
 
 ccp1: {
-    text: 'After learning of your new goal, you three decide to meet up once more, Upon meeting up you guys start seaching for a newly opened dungeon. After finding and  entering the dungeon, you guys are attacked by bat like creatures using echo location to find their way around the caves. Upon frying it, quite literally with your fire prowess, you guys continue heading south. After heading south for what seemed like ages,  you guys collected useful items along the way, and called it an night there. Upon awakening, as you guys continued roaming through the dark halls, you heard the echoes of voices coming from the other side of a red door you guys stumbled upon. Your instincts are screaming at you to stay away, but you along with the other let your curiosity get in the way and ends up entering regardless. When you enter, you see a raging Ahgif. *a window appears* Creature: Ahgif About: These creatures are extremely impulsive and irritable, negotiations will fail. If encountered, aim for their young or find another way to defeat Good Luck Adventurer! So, will you fight it or will you run?',
+    text: `After learning of your new goal, you three decide to meet up once more, Upon meeting up you guys start seaching for a newly opened dungeon. After finding and  entering the dungeon, you guys are attacked by bat like creatures using echo location to find their way around the caves. Upon frying it, quite literally with your fire prowess, you guys continue heading south. After heading south for what seemed like ages,  you guys collected useful items along the way, and called it an night there. Upon awakening, as you guys continued roaming through the dark halls, you heard the echoes of voices coming from the other side of a red door you guys stumbled upon. Your instincts are screaming at you to stay away, but you along with the other let your curiosity get in the way and ends up entering regardless. When you enter, you see a raging Ahgif. *a window appears*  
+    <br><br> "Creature: Ahgif"
+    <br><br> "About: These creatures are extremely impulsive and irritable, negotiations will fail. If encountered, aim for their young or find another way to defeat it."
+    <br><br> "Good Luck Adventurer! So, will you fight it or will you run?"`,
     options:[['a8', 'Fight with the others to defeat the Ahgif '], ['a9' , '“Over here!” As you guys run away, you guys enter a small cave that would only shelter you for so long. Eventually you will meet the Ahgif again']],
 },
 
@@ -666,9 +678,12 @@ ccp1: {
 // // https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
 // // use this to change background, we'll need to get the element with innerHTML and then use the id or class to then change it inside css
 
-let storyList= ["opener"];
+
+// story list is ocnnected to the story line, it starts where the opener is
+let storyList= ["opener"]; 
  storyBuilder(legendoDon.opener.text)
 var restart = document.getElementById("restart");
+// restart button, relatively self explanatory and the story builder makes the actual text
 
 function buttonBuilder(btnText, choice){
     let button = document.createElement("button");
