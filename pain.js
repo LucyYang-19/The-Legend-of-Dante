@@ -4,7 +4,7 @@ var legendoDon = {
         text: "It is a Friday afternoon when you just get home from school and start getting yourself settled down. On such an eventful day, your own birthday, your dad wasn't even here and your mother, well only her remnants are left now. Knowing it’s your birthday and you’re alone like usual, you put on your shoes, grab your wallet, and head out across the street to the closest convenience store. When you walk out, you have a drink I one hand and a box with a small vanilla cake with strawberry custard in another. You make your way across the street and start walking home. When you get home you grab the small brown coffee table and place it down in front of you while you unwrap the cake box.Feeling a bit lonely, you walk to the restroom to get yourself situated and then head up to the attic to grab a picture of your mother. As you're exploring the attic you see a shiny object in your peripheral vision and decide to check it out. After moving the boxes on top of it out of the way, you see a box with a key hole and a key tied on top of it along with a picture of your grandfather.You decide to bring it down with you and set it at the corner of the table.Putting a candle on top of the cake, you light it and make a wish, as you feel tears rolling down, you start to feel ridiculous crying since this wasn’t the first time this has happened.As you cut the cake and eat a slice, your eyes start to wander back to the box you took down and you decide to open it.Upon opening the box, you put your hand in and you grab what seems to be a locket of your grandmother.A moment later, you start to feel weird, for some odd reason, you seem to be disappearing. As you look at the cake and then back at your hands, you simply smile and accept what’s about to happen.A few hours later you feel your eyes start to open, but you ask yourself how you were watching yourself disappear. A couple minutes later a small creature with wings appears next to you. Mysteriously, she approaches you and starts to communicate with you. What will you do?",
         options: [["a1", 'Sure, yeah I\'ll follow, but ya know, where are we going first??'], ["b1", 'Are you talking to me!?!, bro what even are you?? How can you talk?'], ["c1", 'Eh, it has no significance whatsoever, just ignore him and move along']]
     },
-    // start of branch 1
+    // start of branch 1 and also main branch
     a1: {
         text:'As you follow the fairy to town, the fairy introduces himself and informs you of the status window. This status window displays your status, strength, health, and helps identify unknown organisms along with objects. You, as well as each avatar, are given a status window that is only seen by yourself. After following the fairy for a while, you guys end up arriving at what seems to be an academy where you are introduced to your mother\'s mentor, Cade. <br></br> Welcome! User Dante! I am Window, I will help you on your journey to beat [[f̶̛̞̟̼̉̋͌̌̏͑͝O̴̢͎͓͐͛͐ͅr̵͔͓̭̄ᘿᖇᖇᓍᖇ ͔B̷̧̟̊͋̈̏̽̈́̃͆̕ị̵̬̑̔̓̔̐̈́͑͋̇d̸̨͎̯̱̫͇͇̠͈̉̈͌̈͋͛̊͛͝s̸̘̏̆̾̇̒̔̂̉̍͝p̶̪̣͍̯̩̰̲͠E̸̗̼͈̲̘̔̀͑͘ͅḷ̷̨̩̒̈́l̸̹̼̥͎̲̣̏͋̂̃̾͒͛̓̅]] . A little while later, Cade, the mentor, asks you whether or not you wish to be admitted into the academy under his instructions?"',
         options: [['a2', 'Sure why not, but can I be taught fire magic?'],['a3', 'Nah, appreciate it but i’m good, Bye!']],
@@ -682,22 +682,28 @@ ccp1: {
 // story list is ocnnected to the story line, it starts where the opener is
 let storyList= ["opener"]; 
  storyBuilder(legendoDon.opener.text)
+//     restarts the document
 var restart = document.getElementById("restart");
 // restart button, relatively self explanatory and the story builder makes the actual text
 
 function buttonBuilder(btnText, choice){
+//     creates the buttons itself
     let button = document.createElement("button");
     button.innerHTML= btnText;
     buttonArea.appendChild(button);
 
+    
     button.addEventListener("click", function (){
+//         pushes the users choice (used to list) 
         storyList.push(choice);
         choiceBuilder();
+//         story builder makes the actual story
         storyBuilder();
         window.scrollTo({top: 0, behavior: 'smooth'});
+//         scrolls to the top smoothly
     });
 }
-
+// used for creating the choices list
     function choiceBuilder(){
         var prevH= "";
         for(var i = 1; i < storyList.length; i++) {
@@ -705,13 +711,14 @@ function buttonBuilder(btnText, choice){
             prevH= myChoices.innerHTML;
         }
     }
-
+// places the story text in the play area
     function storyPlacer(text) {
         playArea.innerHTML= text;
     }
 
     function storyBuilder(text){
         let currentPg= storyList[storyList.length-1];
+//         resets the area for play area and button,  basically clears is
         playArea.innerHTML= '';
         buttonArea.innerHTML= '';
         for (let num of storyList){
@@ -719,6 +726,7 @@ function buttonBuilder(btnText, choice){
         }
         for (let num of legendoDon[currentPg].options){
             buttonBuilder(num[1], num[0]);
+//             creates the actual options
         }
     }
 
