@@ -137,10 +137,52 @@ padding-left: 5%; padding-right: 280px; padding-top: 20px;
   }
 
   @media screen and (max-width: 480px) {
+ 
+      .mini-flex{
+        width: 40%;
+      }
 
-    
+      .descript{
+        width: 90%;
+       margin-right: 10%;
+      }
+   
+      #restart{
+        margin-right: 20%;
+      }
+
+        #smallArea{
+        
+          margin-right: 50%;
+        }
+
+        .pre{
+          width: 40%;
+        }
+
   }
+
 
   @media screen and (max-width: 992px){
     
+    .mini-flex{
+      width: 80%;
+    }
+
+    .descript{
+      width: 50%;
+     margin-right: 30%;
+    }
+
+    .pre{
+      width: 40%;
+    }
+ 
+  #restart{
+      margin-right: 30%;
+    }
+
+    #smallArea{
+      margin-right: 50%;
+    }
   }
